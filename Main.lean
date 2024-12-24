@@ -1,4 +1,6 @@
 import Leangrad
 
 def main : IO Unit :=
-  IO.println s!"Hello, {hello}!"
+    IO.println "hello, leangrad!"
+
+#eval main
