@@ -1,0 +1,10 @@
+name = "leangrad"
+version = "0.1.0"
+defaultTargets = ["leangrad"]
+
+[[lean_lib]]
+name = "Leangrad"
+
+[[lean_exe]]
+name = "leangrad"
+root = "Main"
